@@ -60,13 +60,13 @@ public Consumo(float km,float pGasol,float ltr,float velMedia){
 
 
     public float getConsumoMedio() {
-        return (litros*100)/kilometros;
+        return (kilometros/100)*litros;
     }
 
   
 
     public float getConsumoEuros() {
-        return ((litros*100)/kilometros)*pGasolina;
+        return (kilometros/100)*pGasolina;
     }
 
 
