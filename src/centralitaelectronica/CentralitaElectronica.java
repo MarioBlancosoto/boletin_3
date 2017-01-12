@@ -11,7 +11,7 @@ public class CentralitaElectronica {
        Consume.setLitros(50f);
        Consume.setpGasolina(1.57f);
        //primer objeto
-       
+       //modificación para prueba con upstream
        Consumo Consumo = new Consumo(350f,1.57f,120f,50f);
        
        float consumomedio = Consumo.getConsumoMedio();
